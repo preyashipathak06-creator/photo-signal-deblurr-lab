@@ -1,0 +1,80 @@
+
+# Photo-Signal Deblur Lab
+
+## Overview
+Photo-Signal Deblur Lab is a Numerical Analysis Programming project that demonstrates mathematical image restoration using numerical methods.
+
+It takes an image, applies blur and noise, and attempts to restore the original image using numerical algorithms.
+
+## Features
+- Image upload and processing
+- Synthetic image generation
+- Gaussian noise addition
+- Mathematical image deblurring
+- MSE and PSNR performance evaluation
+- Eigenvalue and condition number analysis
+- Interactive Streamlit dashboard
+- Restored image download
+
+## Numerical Methods Used
+
+1. Gauss Elimination
+2. Gauss-Jordan Method
+3. Regularized Least Squares
+4. Power Method
+5. Inverse Power Method
+
+## Technologies Used
+- Python
+- NumPy
+- Pillow
+- Matplotlib
+- Streamlit
+
+## Project Structure
+
+```text
+Photo-Signal-Deblur-Lab/
+│
+├── main.py
+├── app.py
+├── image_processing.py
+├── numerical_methods.py
+├── deblurring.py
+├── requirements.txt
+└── README.md
+```
+
+## Installation
+
+Install the required libraries:
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+## Run the Dashboard
+
+```bash
+python -m streamlit run app.py
+```
+
+## Run the Command Line Version
+
+```bash
+python main.py
+```
+
+## Performance Metrics
+
+- MSE: Measures the average squared difference between images.
+- PSNR: Measures reconstructed image quality.
+- Condition Number: Indicates numerical sensitivity of a matrix.
+
+## Limitations
+
+This project uses a simplified mathematical blur model and is designed for educational demonstration. Restoration quality depends on noise and regularization settings.
+
+## Project Purpose
+
+To demonstrate how numerical analysis algorithms can be applied to digital image restoration.
